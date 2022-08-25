@@ -2,8 +2,8 @@ package customer
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/mak-alex/al_hilal_core/internal/middles"
-	customersvc "github.com/mak-alex/al_hilal_core/internal/modules/customer/services"
+	"github.com/internet-banking-ul/internal/middles"
+	customersvc "github.com/internet-banking-ul/internal/modules/customer/services"
 )
 
 type CustomerHandlerImpl struct {

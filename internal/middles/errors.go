@@ -6,7 +6,7 @@ import (
 	"runtime"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/mak-alex/al_hilal_core/helpers/apiErrors"
+	"github.com/internet-banking-ul/helpers/apiErrors"
 )
 
 func defaultStackTraceHandler(e interface{}) {

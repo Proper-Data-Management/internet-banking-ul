@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/mak-alex/al_hilal_core/internal/modules/company_person/entities"
+	"github.com/internet-banking-ul/internal/modules/company_person/entities"
 )
 
 type CompanyPersonResponse struct {

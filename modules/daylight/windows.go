@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"regexp"
 
-	"github.com/mak-alex/al_hilal_core/modules/logger"
+	"github.com/internet-banking-ul/modules/logger"
 	"go.uber.org/zap"
 )
 

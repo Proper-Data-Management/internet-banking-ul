@@ -9,8 +9,8 @@ import (
 	"errors"
 	"syscall"
 
-	"github.com/mak-alex/al_hilal_core/modules/logger"
-	"github.com/mak-alex/al_hilal_core/tools"
+	"github.com/internet-banking-ul/modules/logger"
+	"github.com/internet-banking-ul/tools"
 	"go.uber.org/zap"
 )
 

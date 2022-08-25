@@ -1,8 +1,8 @@
 package dto
 
 import (
-	companyPersonDTO "github.com/mak-alex/al_hilal_core/internal/modules/company_person/dto"
-	customerModel "github.com/mak-alex/al_hilal_core/internal/modules/customer/entities"
+	companyPersonDTO "github.com/internet-banking-ul/internal/modules/company_person/dto"
+	customerModel "github.com/internet-banking-ul/internal/modules/customer/entities"
 )
 
 type CustomerResponse struct {

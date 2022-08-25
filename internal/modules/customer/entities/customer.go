@@ -2,7 +2,7 @@ package entities
 
 import (
 	"github.com/guregu/null"
-	companyPersonModel "github.com/mak-alex/al_hilal_core/internal/modules/company_person/entities"
+	companyPersonModel "github.com/internet-banking-ul/internal/modules/company_person/entities"
 )
 
 type Customer struct {

@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/mak-alex/al_hilal_core/internal/utils"
+	"github.com/internet-banking-ul/internal/utils"
 )
 
 func SetupContextHolder() fiber.Handler {

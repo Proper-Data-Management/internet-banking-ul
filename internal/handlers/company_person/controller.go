@@ -2,8 +2,8 @@ package customer
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/mak-alex/al_hilal_core/internal/handlers"
-	"github.com/mak-alex/al_hilal_core/internal/modules/entities"
+	"github.com/internet-banking-ul/internal/handlers"
+	"github.com/internet-banking-ul/internal/modules/entities"
 )
 
 func (h *CompanyPersonHandlerImpl) CompanyPersonList(ctx *fiber.Ctx) error {

@@ -16,10 +16,10 @@ import (
 
 	"log"
 
-	"github.com/mak-alex/al_hilal_core/internal/config"
-	"github.com/mak-alex/al_hilal_core/internal/server"
-	"github.com/mak-alex/al_hilal_core/modules/logger"
-	"github.com/mak-alex/al_hilal_core/tools"
+	"github.com/internet-banking-ul/internal/config"
+	"github.com/internet-banking-ul/internal/server"
+	"github.com/internet-banking-ul/modules/logger"
+	"github.com/internet-banking-ul/tools"
 	"go.uber.org/zap"
 )
 

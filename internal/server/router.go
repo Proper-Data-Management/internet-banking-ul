@@ -10,12 +10,12 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/compress"
 	"github.com/gofiber/fiber/v2/middleware/etag"
 	"github.com/gofiber/fiber/v2/middleware/pprof"
-	companyPersonHandlers "github.com/mak-alex/al_hilal_core/internal/handlers/company_person"
-	customerHandlers "github.com/mak-alex/al_hilal_core/internal/handlers/customer"
-	"github.com/mak-alex/al_hilal_core/internal/middles"
-	companyPersonService "github.com/mak-alex/al_hilal_core/internal/modules/company_person/services"
-	customerService "github.com/mak-alex/al_hilal_core/internal/modules/customer/services"
-	"github.com/mak-alex/al_hilal_core/modules/logger"
+	companyPersonHandlers "github.com/internet-banking-ul/internal/handlers/company_person"
+	customerHandlers "github.com/internet-banking-ul/internal/handlers/customer"
+	"github.com/internet-banking-ul/internal/middles"
+	companyPersonService "github.com/internet-banking-ul/internal/modules/company_person/services"
+	customerService "github.com/internet-banking-ul/internal/modules/customer/services"
+	"github.com/internet-banking-ul/modules/logger"
 )
 
 //NewServer all rest api

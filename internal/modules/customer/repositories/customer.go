@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"fmt"
 
-	customerModel "github.com/mak-alex/al_hilal_core/internal/modules/customer/entities"
-	"github.com/mak-alex/al_hilal_core/internal/modules/entities"
-	"github.com/mak-alex/al_hilal_core/modules/logger"
-	sq "github.com/mak-alex/al_hilal_core/modules/squirrel"
+	customerModel "github.com/internet-banking-ul/internal/modules/customer/entities"
+	"github.com/internet-banking-ul/internal/modules/entities"
+	"github.com/internet-banking-ul/modules/logger"
+	sq "github.com/internet-banking-ul/modules/squirrel"
 	"go.uber.org/zap"
 )
 

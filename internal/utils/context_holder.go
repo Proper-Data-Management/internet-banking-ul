@@ -5,7 +5,7 @@ import (
 
 	"sync"
 
-	"github.com/mak-alex/al_hilal_core/modules/logger"
+	"github.com/internet-banking-ul/modules/logger"
 )
 
 // ContextHolderKey key for map in context

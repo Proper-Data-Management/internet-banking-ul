@@ -4,11 +4,11 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/mak-alex/al_hilal_core/internal/modules/company_person/dto"
-	companyPersonRepo "github.com/mak-alex/al_hilal_core/internal/modules/company_person/repositories"
-	customerRepo "github.com/mak-alex/al_hilal_core/internal/modules/customer/repositories"
-	"github.com/mak-alex/al_hilal_core/internal/modules/entities"
-	"github.com/mak-alex/al_hilal_core/modules/logger"
+	"github.com/internet-banking-ul/internal/modules/company_person/dto"
+	companyPersonRepo "github.com/internet-banking-ul/internal/modules/company_person/repositories"
+	customerRepo "github.com/internet-banking-ul/internal/modules/customer/repositories"
+	"github.com/internet-banking-ul/internal/modules/entities"
+	"github.com/internet-banking-ul/modules/logger"
 )
 
 type CompanyPersonService interface {
