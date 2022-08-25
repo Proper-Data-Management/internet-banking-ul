@@ -1,0 +1,15 @@
+version: '2.1'
+
+services:
+  al_hilal_core:
+    image: al_hilal_core:latest
+    build:
+      context: .
+      args:
+        CI_DEPLOY_TOKEN_USER: 
+        CI_DEPLOY_TOKEN_PASS: 
+    container_name: al_hilal_core
+    env_file: .env
+    ports:
+      - 8000:8000
+    command: ./al_hilal_core

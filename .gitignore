@@ -1,0 +1,44 @@
+# ignore
+cmd/build
+*.pid
+*.sql
+.env
+!/db/*/*.sql
+.idea/
+b7m
+*.exe
+*.log
+.DS_Store
+config/
+*.pid
+*.lock
+workspace/
+logs/
+vendor/
+cache/*
+out/
+scripts/
+*.puml
+TODO.md
+__debug_bin
+main
+dependencies/vendor/
+images
+config-*
+modcache
+cmd/load_local_config.go
+al_hilal_core_data
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+.idea
