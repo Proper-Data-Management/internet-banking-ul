@@ -1,4 +1,4 @@
-module github.com/mak-alex/al_hilal_core
+module github.com/internet-banking-ul
 
 go 1.18
 

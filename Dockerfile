@@ -9,7 +9,7 @@ ENV GOSUMDB="off"
 ENV GOPATH /root/go
 ENV LD_LIBRARY_PATH /opt/oracle/instantclient_21_7
 ENV PKG_CONFIG_PATH /opt/oracle/instantclient_21_7
-ENV AL_HILAL_CORE_PROJECT ${GOPATH}/src/github.com/mak-alex/al_hilal_core
+ENV AL_HILAL_CORE_PROJECT ${GOPATH}/src/github.com/internet-banking-ul
 
 ADD go.mod go.sum /root/
 WORKDIR /root
@@ -29,7 +29,7 @@ RUN mkdir /root/al_hilal_core
 ENV GOPATH /root/go
 ENV LD_LIBRARY_PATH /opt/oracle/instantclient_21_7
 ENV PKG_CONFIG_PATH /opt/oracle/instantclient_21_7
-ENV AL_HILAL_CORE_PROJECT ${GOPATH}/src/github.com/mak-alex/al_hilal_core
+ENV AL_HILAL_CORE_PROJECT ${GOPATH}/src/github.com/internet-banking-ul
 
 COPY --from=build_env ${AL_HILAL_CORE_PROJECT}/out/bin/al_hilal_core /root/al_hilal_core/al_hilal_core
 COPY --from=build_env /opt/oracle /opt/oracle
